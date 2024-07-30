@@ -1,39 +1,42 @@
-# Cloud
-
-<<<<<<< HEAD
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.2.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-=======
-Este Proyecto es un servicio de cloud multiplataforma, donde almacene todo tipo de formatos y peso.
-Los archivos se podran visualizar como un escritorio de un SO, y la con carpetas.
-Incluira una seccion de contactos, para enviar mensajes y brindar permisos. Facilitando la tranferencia y almacenamiento entre dispositivos.
-El servicio de transferencia sera para que los usuarios prueben el servicio gratuito.
-------------
-
+Este Proyecto es un servicio de cloud multiplataforma, donde almacene todo tipo de formatos y peso. Los archivos se podran visualizar como un escritorio de un SO, y la con carpetas. Incluira una seccion de contactos, para enviar mensajes y brindar permisos. Facilitando la tranferencia y almacenamiento entre dispositivos. El servicio de transferencia sera para que los usuarios prueben el servicio gratuito.
 Aqui ire subiendo los cambios y el estatus de las funciones:
 
 Good Luck!
->>>>>>> 443e480b809563faa1c2c640da599db19a0de124
+
+
+-----------------------------
+
+## Estructura del Proyecto
+
+- **src/app/components**: Contiene los componentes principales de la aplicación.
+  - `confirmation`: Componente para mostrar confirmaciones.
+  - `file-detail`: Componente para mostrar detalles de un archivo.
+  - `file-list`: Componente para listar archivos.
+  - `file-upload`: Componente para subir archivos.
+  - `message`: Componente para mostrar mensajes.
+  - `navigation`: Componente de navegación.
+  - `upload-progress`: Componente para mostrar el progreso de subida.
+  - `user-settings`: Componente para configurar ajustes del usuario.
+
+- **src/app/services**: Contiene servicios para manejar la lógica de negocio.
+  - `file.service.ts`: Servicio para manejar operaciones de archivos.
+  - `user.service.ts`: Servicio para manejar operaciones de usuario.
+  - `notification.service.ts`: Servicio para manejar notificaciones.
+
+- **src/app/models**: Contiene modelos para la aplicación.
+  - `file.model.ts`: Modelo para los archivos.
+  - `user.model.ts`: Modelo para los usuarios.
+
+- **src/app/guards**: Contiene guardias para la protección de rutas.
+  - `auth.guard.ts`: Guardia para autenticación.
+  - `admin.guard.ts`: Guardia para administración.
+
+- **src/app/pipes**: Contiene pipes personalizados.
+  - `file-size.pipe.ts`: Pipe para formatear el tamaño de archivos.
+  - `date-format.pipe.ts`: Pipe para formatear fechas.
+
+- **src/app/directives**: Contiene directivas personalizadas.
+  - `drag-drop.directive.ts`: Directiva para arrastrar y soltar.
+  - `file-upload.directive.ts`: Directiva para manejar la subida de archivos.
+
+## Instalación
