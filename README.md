@@ -1,5 +1,6 @@
 # Cloud
 
+<<<<<<< HEAD
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.2.
 
 ## Development server
@@ -25,3 +26,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+Este Proyecto es un servicio de cloud multiplataforma, donde almacene todo tipo de formatos y peso.
+Los archivos se podran visualizar como un escritorio de un SO, y la con carpetas.
+Incluira una seccion de contactos, para enviar mensajes y brindar permisos. Facilitando la tranferencia y almacenamiento entre dispositivos.
+El servicio de transferencia sera para que los usuarios prueben el servicio gratuito.
+------------
+
+Aqui ire subiendo los cambios y el estatus de las funciones:
+
+Good Luck!
+>>>>>>> 443e480b809563faa1c2c640da599db19a0de124
